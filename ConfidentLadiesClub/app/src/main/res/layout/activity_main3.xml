@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cdbdd2"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center"
+            android:src="@drawable/confiden" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Postal Address"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Region" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            android:hint="City" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Mobile"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:inputType="phone" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/editText15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/editText16"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:hint="Digital Address"
+            android:layout_marginTop="10dp"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:background="@drawable/btn"
+            android:id="@+id/button2"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:text="Next" />
+
+    </LinearLayout>
+</LinearLayout>

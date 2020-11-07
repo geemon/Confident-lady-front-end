@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdbdd2"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center"
+            android:src="@drawable/confiden" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:hint="Title"
+            android:textColorHint="#8c6597"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:textColorHint="#8c6597"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Firstname" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#8c6597"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Surname" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Birth"
+            android:inputType="date" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:background="@drawable/edit"
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:hint="Gender"
+            android:padding="10dp"
+
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:padding="10sp"
+           android:background="@drawable/edit"
+            android:hint="Address"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:textColorHint="#8c6597"
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:hint="Country" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>
